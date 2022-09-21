@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <MASM Include="P_0_Plantilla_.asm" />
+    <MASM Include="P_1_IntroCondicionales_.asm" />
+    <MASM Include="P_2_checarNumeroEsPar_.asm" />
+  </ItemGroup>
+  <ItemGroup>
+    <Object Include="C:\Irvine\Lib32\Irvine32_Library\Debug\Irvine32.obj" />
+  </ItemGroup>
+</Project>
