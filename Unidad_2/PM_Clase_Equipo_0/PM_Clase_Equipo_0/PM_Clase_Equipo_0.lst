@@ -1,4 +1,4 @@
-Microsoft (R) Macro Assembler Version 14.30.30709.0	    09/20/22 20:43:34
+Microsoft (R) Macro Assembler Version 14.30.30709.0	    09/21/22 20:44:59
 	Trabajo 					     Page 1 - 1
 
 
@@ -30,45 +30,22 @@ Microsoft (R) Macro Assembler Version 14.30.30709.0	    09/20/22 20:43:34
 			      C 
  00000000			.data
 				; Área de Declaración de Variables
- 00000000 00000002		dividendo_2 dword 2
+ 00000000 4D 65 6E 73 61	cadena_4 db "Mensaje en Consola",0
+	   6A 65 20 65 6E
+	   20 43 6F 6E 73
+	   6F 6C 61 00
 
  00000000			.code
- 00000000				main2 PROC
+ 00000000				main4 PROC
 						;Lógica del Programa
+
+ 00000000  BA 00000000 R			mov edx, offset cadena_4
+ 00000005  E8 00000000 E			call writestring
 						
-						; checar si un numero es par
-
- 00000000  B8 00000011				mov eax, 17    ;eax contiene al numero que se va a checar si es par
-
- 00000005  BA 00000000				mov edx, 0
-
- 0000000A  F7 35 00000000 R			div dividendo_2    ; eax =  cociente   edx = residuo	
-
-						;SUPONGA.... 
- 00000010  B8 00000001				MOV EAX, 1  ; SI EAX = 1, EL NUMERO COMPARADO ES PAR
-						; SI EAX = 0, ENTONCES, EL NUMERO COMPARADO ES IMPAR
-
-						;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-
- 00000015  83 FA 00				CMP EDX, 0   ; COMPARA EDX CON 0
-
- 00000018  75 02				JNZ CAMBIA_VALOR_EAX  ; CUANDO EL RESULTADO DE LA COMPARACION
-											  ; ES DIFERENTE DE CERO, ENTONCES 
-											  ; SE SALTA A "CAMBIA_VALOR_EAX" 
- 0000001A  EB 05				JMP CONTINUAR
-
- 0000001C					CAMBIA_VALOR_EAX:
- 0000001C  B8 00000000					MOV EAX, 0
-						
-						;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
- 00000021					CONTINUAR:
- 00000021  E8 00000000 E				CALL WRITEDEC
- 00000026  E8 00000000 E				CALL CRLF
-
 						exit	
- 00000032				main2 ENDP
-					END main2
-Microsoft (R) Macro Assembler Version 14.30.30709.0	    09/20/22 20:43:34
+ 00000011				main4 ENDP
+					END main4
+Microsoft (R) Macro Assembler Version 14.30.30709.0	    09/21/22 20:44:59
 	Trabajo 					     Symbols 2 - 1
 
 
@@ -162,8 +139,8 @@ Segments and Groups:
 
 FLAT . . . . . . . . . . . . . .	GROUP
 STACK  . . . . . . . . . . . . .	32 Bit	 00001000 Para	  Stack	  'STACK'	 
-_DATA  . . . . . . . . . . . . .	32 Bit	 00000004 Para	  Public  'DATA'	
-_TEXT  . . . . . . . . . . . . .	32 Bit	 00000032 Para	  Public  'CODE'	
+_DATA  . . . . . . . . . . . . .	32 Bit	 00000013 Para	  Public  'DATA'	
+_TEXT  . . . . . . . . . . . . .	32 Bit	 00000011 Para	  Public  'CODE'	
 
 
 Procedures, parameters, and locals:
@@ -270,9 +247,7 @@ WriteStackFrame  . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External
 WriteString  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 WriteToFile  . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
 WriteWindowsMsg  . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External STDCALL
-main2  . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000032 Public STDCALL
-  CAMBIA_VALOR_EAX . . . . . . .	L Near	 0000001C _TEXT	
-  CONTINUAR  . . . . . . . . . .	L Near	 00000021 _TEXT	
+main4  . . . . . . . . . . . . .	P Near	 00000000 _TEXT	Length= 00000011 Public STDCALL
 printf . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
 scanf  . . . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
 wsprintfA  . . . . . . . . . . .	P Near	 00000000 FLAT	Length= 00000000 External C
@@ -494,8 +469,8 @@ WriteConsole . . . . . . . . . .	Text   	 WriteConsoleA
 black  . . . . . . . . . . . . .	Number	 00000000h   
 blue . . . . . . . . . . . . . .	Number	 00000001h   
 brown  . . . . . . . . . . . . .	Number	 00000006h   
+cadena_4 . . . . . . . . . . . .	Byte	 00000000 _DATA	
 cyan . . . . . . . . . . . . . .	Number	 00000003h   
-dividendo_2  . . . . . . . . . .	DWord	 00000000 _DATA	
 exit . . . . . . . . . . . . . .	Text   	 INVOKE ExitProcess,0
 gray . . . . . . . . . . . . . .	Number	 00000008h   
 green  . . . . . . . . . . . . .	Number	 00000002h   
