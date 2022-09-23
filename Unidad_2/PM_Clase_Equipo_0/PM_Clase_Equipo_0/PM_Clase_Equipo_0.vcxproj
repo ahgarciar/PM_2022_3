@@ -26,6 +26,7 @@
     <MASM Include="P_2_checarNumeroEsPar_.asm" />
     <MASM Include="P_3_LecturaNumeros_.asm" />
     <MASM Include="P_5_SumaDosNumeros_.asm" />
+    <MASM Include="P_6_Promedio_3Numeros_.asm" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="C:\Irvine\Lib32\Irvine32_Library\Debug\Irvine32.obj" />
@@ -110,7 +111,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>main5</EntryPointSymbol>
+      <EntryPointSymbol>main6</EntryPointSymbol>
       <ImportLibrary>c:/Irvine</ImportLibrary>
     </Link>
     <MASM>

@@ -7,6 +7,7 @@
     <MASM Include="P_3_LecturaNumeros_.asm" />
     <MASM Include="p_4_EscrituraCadenaConsola_.asm" />
     <MASM Include="P_5_SumaDosNumeros_.asm" />
+    <MASM Include="P_6_Promedio_3Numeros_.asm" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="C:\Irvine\Lib32\Irvine32_Library\Debug\Irvine32.obj" />
