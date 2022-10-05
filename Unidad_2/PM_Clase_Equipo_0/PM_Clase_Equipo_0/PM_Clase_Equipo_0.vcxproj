@@ -22,11 +22,15 @@
     <MASM Include="P_0_Plantilla_.asm">
       <FileType>Document</FileType>
     </MASM>
+    <MASM Include="P_10_CHECAR_PARES_CON_LOOP.ASM" />
     <MASM Include="P_1_IntroCondicionales_.asm" />
     <MASM Include="P_2_checarNumeroEsPar_.asm" />
     <MASM Include="P_3_LecturaNumeros_.asm" />
     <MASM Include="P_5_SumaDosNumeros_.asm" />
     <MASM Include="P_6_Promedio_3Numeros_.asm" />
+    <MASM Include="P_7_AreaRectangulo_.asm" />
+    <MASM Include="P_8_PuntoMedio_.asm" />
+    <MASM Include="P_9_introduccion_LOOP_.asm" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="C:\Irvine\Lib32\Irvine32_Library\Debug\Irvine32.obj" />
@@ -111,7 +115,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>main6</EntryPointSymbol>
+      <EntryPointSymbol>main10</EntryPointSymbol>
       <ImportLibrary>c:/Irvine</ImportLibrary>
     </Link>
     <MASM>

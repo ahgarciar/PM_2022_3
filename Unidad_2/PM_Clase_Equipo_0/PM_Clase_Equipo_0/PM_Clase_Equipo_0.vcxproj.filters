@@ -8,6 +8,10 @@
     <MASM Include="p_4_EscrituraCadenaConsola_.asm" />
     <MASM Include="P_5_SumaDosNumeros_.asm" />
     <MASM Include="P_6_Promedio_3Numeros_.asm" />
+    <MASM Include="P_7_AreaRectangulo_.asm" />
+    <MASM Include="P_8_PuntoMedio_.asm" />
+    <MASM Include="P_9_introduccion_LOOP_.asm" />
+    <MASM Include="P_10_CHECAR_PARES_CON_LOOP.ASM" />
   </ItemGroup>
   <ItemGroup>
     <Object Include="C:\Irvine\Lib32\Irvine32_Library\Debug\Irvine32.obj" />
