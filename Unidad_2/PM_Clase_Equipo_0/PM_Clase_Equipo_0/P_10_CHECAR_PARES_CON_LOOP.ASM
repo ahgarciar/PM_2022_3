@@ -55,10 +55,6 @@ RESULTADO_2_10 DB "EL NUMERO ES IMPAR", 0
 				
 		LOOP CICLO
 
-
-
-
-
 		exit	
 
 	main10 ENDP

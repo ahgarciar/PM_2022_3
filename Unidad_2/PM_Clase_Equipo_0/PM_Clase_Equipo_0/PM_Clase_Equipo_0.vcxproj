@@ -23,6 +23,10 @@
       <FileType>Document</FileType>
     </MASM>
     <MASM Include="P_10_CHECAR_PARES_CON_LOOP.ASM" />
+    <MASM Include="P_11_ChecarSiEsPrimo_.asm" />
+    <MASM Include="P_12_PilaEnEnsamblador_.asm" />
+    <MASM Include="P_13_IntroPila_.asm" />
+    <MASM Include="P_14_Instruccion_XCHG_.asm" />
     <MASM Include="P_1_IntroCondicionales_.asm" />
     <MASM Include="P_2_checarNumeroEsPar_.asm" />
     <MASM Include="P_3_LecturaNumeros_.asm" />
@@ -115,7 +119,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
-      <EntryPointSymbol>main10</EntryPointSymbol>
+      <EntryPointSymbol>main14</EntryPointSymbol>
       <ImportLibrary>c:/Irvine</ImportLibrary>
     </Link>
     <MASM>
