@@ -1,0 +1,113 @@
+﻿  stdafx.cpp
+  dllmain.cpp
+  DLL_AppHibrida_ASM_C.cpp
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(17): error C4235: se ha utilizado una extensión no estándar: la palabra clave '__asm' no se admite en esta arquitectura
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(19): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(19): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(19): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(20): error C2146: error de sintaxis: falta ';' delante del identificador 'add'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(20): error C2065: 'add': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(20): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(20): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(22): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(22): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(22): error C2146: error de sintaxis: falta ';' delante del identificador 'resultado'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(22): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(23): error C2143: error de sintaxis: falta ';' delante de '}'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(35): error C4235: se ha utilizado una extensión no estándar: la palabra clave '__asm' no se admite en esta arquitectura
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(37): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(37): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(37): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(38): error C2146: error de sintaxis: falta ';' delante del identificador 'sub'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(38): error C2065: 'sub': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(38): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(38): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(40): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(40): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(40): error C2146: error de sintaxis: falta ';' delante del identificador 'resultado'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(40): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(41): error C2143: error de sintaxis: falta ';' delante de '}'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(51): error C4235: se ha utilizado una extensión no estándar: la palabra clave '__asm' no se admite en esta arquitectura
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(53): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(53): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(53): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(54): error C2146: error de sintaxis: falta ';' delante del identificador 'mul'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(54): error C2065: 'mul': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(56): error C2146: error de sintaxis: falta ';' delante del identificador 'b'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(56): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(56): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(56): error C2146: error de sintaxis: falta ';' delante del identificador 'resultado'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(56): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(57): error C2143: error de sintaxis: falta ';' delante de '}'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(68): error C4235: se ha utilizado una extensión no estándar: la palabra clave '__asm' no se admite en esta arquitectura
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(69): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(69): error C2146: error de sintaxis: falta ';' delante del identificador 'edx'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(69): error C2065: 'edx': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(70): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(70): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(70): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(70): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(71): error C2146: error de sintaxis: falta ';' delante del identificador 'div'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(73): error C2146: error de sintaxis: falta ';' delante del identificador 'b'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(71): warning C4551: la llamada a la función no tiene lista de argumentos
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(73): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(73): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(73): error C2146: error de sintaxis: falta ';' delante del identificador 'parteEntera'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(73): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(74): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(74): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(74): error C2146: error de sintaxis: falta ';' delante del identificador 'parteDecimal'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(74): error C2065: 'edx': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(75): error C2143: error de sintaxis: falta ';' delante de '}'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(86): error C4235: se ha utilizado una extensión no estándar: la palabra clave '__asm' no se admite en esta arquitectura
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(88): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(88): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(88): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(89): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(89): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(89): error C2146: error de sintaxis: falta ';' delante del identificador 'ebx'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(89): error C2065: 'ebx': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(91): error C2146: error de sintaxis: falta ';' delante del identificador 'ciclo'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(93): error C2065: 'mul': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(94): error C2146: error de sintaxis: falta ';' delante del identificador 'ebx'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(93): error C2065: 'ebx': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(94): error C2146: error de sintaxis: falta ';' delante del identificador 'inc'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(94): error C2065: 'inc': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(95): error C2146: error de sintaxis: falta ';' delante del identificador 'ebx'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(94): error C2065: 'ebx': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(95): error C2146: error de sintaxis: falta ';' delante del identificador 'cmp'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(95): error C2065: 'cmp': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(95): error C2065: 'ebx': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(96): error C2146: error de sintaxis: falta ';' delante del identificador 'jle'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(96): error C2065: 'jle': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(98): error C2146: error de sintaxis: falta ';' delante del identificador 'ciclo'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(96): error C2065: 'ciclo': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(98): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(98): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(98): error C2146: error de sintaxis: falta ';' delante del identificador 'result'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(98): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(100): error C2143: error de sintaxis: falta ';' delante de '}'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(113): error C4235: se ha utilizado una extensión no estándar: la palabra clave '__asm' no se admite en esta arquitectura
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(115): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(115): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(115): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(116): error C2146: error de sintaxis: falta ';' delante del identificador 'cmp'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(116): error C2065: 'cmp': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(116): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(116): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(117): error C2146: error de sintaxis: falta ';' delante del identificador 'jg'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(117): error C2065: 'jg': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(119): error C2146: error de sintaxis: falta ';' delante del identificador 'continuar'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(117): error C2065: 'continuar': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(119): error C2146: error de sintaxis: falta ';' delante del identificador 'xchg'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(119): error C2065: 'xchg': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(119): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(119): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(121): error C2146: error de sintaxis: falta ';' delante del identificador 'continuar'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(123): error C2065: 'sub': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(123): error C2146: error de sintaxis: falta ';' delante del identificador 'eax'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(123): error C2065: 'eax': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(125): error C2146: error de sintaxis: falta ';' delante del identificador 'mov'
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(125): error C2065: 'mov': identificador no declarado
+d:\dropbox\fi-uat\2020-1\programacionmicroprocesadores\dll_apphibrida_asm_c\dll_apphibrida_asm_c\dll_apphibrida_asm_c.cpp(125): fatal error C1003: el recuento de errores supera 100; se detiene la compilación
+  Generando código...
